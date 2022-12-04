@@ -82,6 +82,12 @@ public class Utils {
 
     public static String checkProxy(String url) {
         if (url.startsWith("proxy://")) return url.replace("proxy://", Server.get().getAddress(true) + "/proxy?");
+        url = url.replace("amp;", "");
+        url = url.replace("amp;", "");
+        url = url.replace("amp;", "");
+        url = url.replace("amp;", "");
+        url = url.replace("amp;", "");
+        url = url.replace("amp;", "");
         return url;
     }
 
