@@ -43,11 +43,23 @@ public class Live {
 
     public Live(String url) {
         this.name = Uri.parse(url).getLastPathSegment();
+        url = url.replace("amp;", "");
+        url = url.replace("amp;", "");
+        url = url.replace("amp;", "");
+        url = url.replace("amp;", "");
+        url = url.replace("amp;", "");
+        url = url.replace("amp;", "");
         this.url = url;
     }
 
     public Live(String name, String url) {
         this.name = name;
+        url = url.replace("amp;", "");
+        url = url.replace("amp;", "");
+        url = url.replace("amp;", "");
+        url = url.replace("amp;", "");
+        url = url.replace("amp;", "");
+        url = url.replace("amp;", "");
         this.url = url;
     }
 
